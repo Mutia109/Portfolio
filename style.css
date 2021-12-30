@@ -124,13 +124,13 @@
 
 /* About Style */
 .about {
-  width: 80%;
+  width: 90%;
   height: 390%;
   background-color: white;
   border-radius: 20px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   display: flex;
-  margin: -7% auto 20px auto;
+  margin: -12% auto 20px auto;
   position: relative;
   justify-content: space-evenly;
   align-items: center;
@@ -141,6 +141,7 @@
 }
 
 .about-text {
+  padding: 38px;
   width: 550px;
 }
 
@@ -303,7 +304,7 @@ h1 {
 }
 
 .skills-text p {
-  padding: 10px;
+  padding-top: 15px;
   font-size: 18px;
 }
 
@@ -317,9 +318,7 @@ span {
 }
 
 .skill {
-  padding: 5px;
-  text-align: right;
-  color: white;
+  padding: 10px;
 }
 
 .html {
@@ -415,6 +414,6 @@ footer p:nth-child(2) {
   transition: all ease 0.5s;
 }
 
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
